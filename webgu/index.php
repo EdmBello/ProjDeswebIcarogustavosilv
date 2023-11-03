@@ -1,3 +1,7 @@
+<?php
+include('protect.php');
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,6 +12,13 @@
     <title>CRUD</title>
 </head>
 <body>
+<ul <?php echo $_SESSION['nome']; ?>.
+ class="container-right">
+        <li><a href="logout.php">Sair</a></li>
+</ul>
+
+</p>
+
     <div class="container">
         <div class="header">
             <span>Cadastro de Pedidos</span>

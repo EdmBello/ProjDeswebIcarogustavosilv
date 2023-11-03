@@ -26,9 +26,9 @@ if(isset($_POST['User']) || isset($_POST['senha'])) {
             }
 
             $_SESSION['id'] = $usuario['id'];
-            $_SESSION['nome'] = $usuario['nome'];
+            $_SESSION['nome'] = $usuario['user'];
 
-            header("Location: webgu/index.html");
+            header("Location: webgu/index.php");
 
         } else {
             echo "Falha ao logar! Usuario ou senha incorretos";
