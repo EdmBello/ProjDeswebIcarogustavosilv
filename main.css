@@ -1,0 +1,19 @@
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 92vh;
+}
+
+.container{
+    padding: auto;;
+    align-content: center;
+    position: center;
+    margintop: 100;
+    padding-top: 200px;
+    
+}
+.red{
+    color: red;
+}
